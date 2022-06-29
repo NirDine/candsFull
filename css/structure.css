@@ -50,17 +50,17 @@ header .logo
     width: 156px;
     height: 50px;
     cursor: pointer;
-    background-image: url(/img/logos/cands.svg);
+    background-image: url(../img/logos/cands.svg);
     background-repeat: no-repeat;
 }
 
 header.nav-scrolled .logo {
-    background-image: url(/img/logos/cands-dark.svg);
+    background-image: url(../img/logos/cands-dark.svg);
 }
 
 @media only screen and (max-width: 768px) {
     header .logo {
-        background-image: url(/img/logos/cands-no-text.svg) !important;
+        background-image: url(../img/logos/cands-no-text.svg) !important;
     }
 }
 
@@ -85,7 +85,7 @@ header.nav-scrolled .logo {
   position: relative;
   width: 60px;
   height: 60px;
-  background: url(/img/buttons/menu.webp);
+  background: url(../img/buttons/menu.webp);
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: center;
@@ -93,12 +93,12 @@ header.nav-scrolled .logo {
 }
 
 .nav-scrolled .toggle {
-     background-image: url(/img/buttons/menu-dark.webp); 
+     background-image: url(../img/buttons/menu-dark.webp); 
 }
 .toggle.active,
 .videoCloser
 {
-  background: url(/img/buttons/close.webp);
+  background: url(../img/buttons/close.webp);
   background-repeat: no-repeat;
   background-size: 25px;
   background-position: center;
@@ -108,7 +108,7 @@ header.nav-scrolled .logo {
 }
 
 .nav-scrolled .toggle.active {
-    background-image: url(/img/buttons/close-dark.webp);
+    background-image: url(../img/buttons/close-dark.webp);
 }
 
 .showcase
@@ -521,7 +521,7 @@ body.video .videoBox {
 .appVideoHolder .play {
     box-shadow: 10px 10px 30px -15px black;
     width: 47.5%;
-    background: url(/img/techworld.webp) no-repeat;
+    background: url(../img/techworld.webp) no-repeat;
     background-size: cover;
     opacity: 0.5;
     background-position: right;
@@ -648,7 +648,7 @@ body.video .videoBox {
     margin-bottom: var(--gap);
     width: 100%;
     padding-block:5em;
-        background-image: url(/img/warehouse.webp);
+        background-image: url(../img/warehouse.webp);
     background-size: cover;
     background-repeat: no-repeat;
       background-attachment: fixed;
@@ -683,7 +683,7 @@ body.video .videoBox {
 .about-body {
     width: 100%;
     padding-block:20px;
-    background-image: url(/img/team-bg.webp);
+    background-image: url(../img/team-bg.webp);
     background-repeat: no-repeat;
     background-position: center;
 
